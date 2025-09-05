@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+
+.favourite-places-bg-container {
+    background-image: url("https://s3.ap-south-1.amazonaws.com/new-assets.ccbp.in/frontend/loading-data/niat_static/niat_coding_questionsocean.png");
+    min-height: 100vh;
+    background-size: cover;
+    padding: 24px;
+}
+
+.favourite-places-heading {
+    color: rgb(76, 36, 221);
+    font-size: 28px;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center; 
+    width: 100%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+.favourite-place-card-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.favourite-place-card-container:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+.favourite-place-card-text {
+    flex: 1;
+}
+
+.favourite-place-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 8px;
+}
+
+.favourite-place-card-description {
+    font-family: "Roboto";
+    font-size: 13px;
+    color: #6c6b70;
+}
+
+.favourite-place-card-image {
+    width: 80px;
+    height: 100px;
+    object-fit: cover;
+}
+ 
